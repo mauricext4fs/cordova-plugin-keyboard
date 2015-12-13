@@ -1,6 +1,6 @@
 {
   "name": "cordova-plugin-keyboard-mc",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Cordova Keyboard Plugin::Twitter Type",
   "cordova": {
     "id": "cordova-plugin-keyboard-mc",
