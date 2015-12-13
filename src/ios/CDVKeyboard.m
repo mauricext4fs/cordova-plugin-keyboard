@@ -169,6 +169,7 @@ static IMP WKOriginalImp;
     }
     
     [activeField setKeyboardType:UIKeyboardTypeTwitter];
+    [activeField autocorrectionType:UITextAutocorrectionTypeYes];
 
     self.webView.scrollView.scrollEnabled = YES;
 
