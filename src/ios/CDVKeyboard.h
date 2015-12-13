@@ -28,15 +28,12 @@
     id _keyboardShowObserver, _keyboardHideObserver, _keyboardWillShowObserver, _keyboardWillHideObserver;
     @protected
     id _shrinkViewKeyboardWillChangeFrameObserver;
-    @protected
-    UITextField _activeField;
 }
 
 @property (readwrite, assign) BOOL shrinkView;
 @property (readwrite, assign) BOOL disableScrollingInShrinkView;
 @property (readwrite, assign) BOOL hideFormAccessoryBar;
 @property (readonly, assign) BOOL keyboardIsVisible;
-@property (readwrite, assign) UITextField activeField;
 
 - (void)shrinkView:(CDVInvokedUrlCommand*)command;
 - (void)disableScrollingInShrinkView:(CDVInvokedUrlCommand*)command;
