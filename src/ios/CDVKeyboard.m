@@ -38,6 +38,16 @@
     return [self.commandDelegate.settings objectForKey:[key lowercaseString]];
 }
 
+- (void)textFieldDidBeginEditing:(UITextField *)textField
+{
+    activeField = textField;
+}
+
+- (void)textFieldDidEndEditing:(UITextField *)textField
+{
+    activeField = nil;
+}
+
 #pragma mark Initialize
 
 - (void)pluginInitialize
@@ -157,6 +167,8 @@ static IMP WKOriginalImp;
     if (!(self.viewController.isViewLoaded && self.viewController.view.window)) {
         return;
     }
+    
+    [activeField setKeyboardType:UIKeyboardTypeTwitter];
 
     self.webView.scrollView.scrollEnabled = YES;
 
