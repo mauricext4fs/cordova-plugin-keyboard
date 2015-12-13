@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<plugin xmlns="http://apache.org/cordova/ns/plugins/1.0" id="cordova-plugin-keyboard" version="1.1.3">
-    <name>Keyboard</name>
-    <description>Cordova Keyboard Plugin</description>
+<plugin xmlns="http://apache.org/cordova/ns/plugins/1.0" id="cordova-plugin-keyboard" version="0.0.1">
+    <name>Keyboard-MC</name>
+    <description>Cordova Keyboard MC Plugin</description>
     <license>Apache 2.0</license>
     <keywords>cordova,keyboard</keywords>
 

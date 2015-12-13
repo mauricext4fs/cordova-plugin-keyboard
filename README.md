@@ -1,4 +1,6 @@
-# cordova-plugin-keyboard
+# cordova-plugin-keyboard-mc
+
+This is an fork of: https://github.com/cjpearson/cordova-plugin-keyboard.git with default Twitter post type.
 
 > This plugin provides the `Keyboard` object which has some functions to customize and control the keyboard. It also supports the __HideKeyboardFormAccessoryBar__ (boolean) and __KeyboardShrinksView__ (boolean) preferences in config.xml.
 
